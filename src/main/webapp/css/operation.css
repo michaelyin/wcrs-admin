@@ -1,0 +1,166 @@
+/*common style*/
+ .btn{
+ 	background: transparent;
+	border:1px solid #92a2c6;
+	width:50px;
+	font-size: 16px;
+	line-height: 20px;
+	border-radius: 3px;
+	color:#666;
+ }
+ label{
+ 	display: inline-block;
+	width:90px;
+	font-size: 16px;
+	text-align: right;
+}
+ input{
+ 	padding-left: 5px;
+ }
+ #content,#container,header,input{
+ 	border-radius: 5px;
+ }
+/*end common style*/
+body{
+	margin:10px;
+	background:#e7ecf2 url(../img/bg.png) repeat-x; 
+}
+#container{
+	width:80%;
+	margin:0 auto;
+	border:3px solid #9faecd;
+	background:#9faecd;	
+}
+header{
+	position: relative;
+	overflow: hidden;
+	height: 100px;
+	color: #fff;
+	background:url(../img/headbg.png);
+}
+ul.nav{
+	position: absolute;
+	top:80px;
+	right:10px;
+}
+ul.nav li{
+	float: left;
+	margin-left:5px;
+	color:#666;
+}
+ul.nav a{
+	color:#666;
+}
+header h1{
+	position:relative;
+	top:35px;
+	left:10px;
+	font-size: 28px;
+	font-weight: bold;
+	
+}
+#content{
+	border:2px solid #888;
+	margin:30px;
+	padding:10px;
+	background:#fff;
+	height:600px;
+}
+input{
+	border:1px solid #ccc;
+}
+h2{
+	width:50%;
+	font-size:25px;
+	font-weight: bold;
+	color:#405c9b;
+	margin:20px 0 30px 20px;
+	padding-bottom:5px;
+	border-bottom:2px solid #405c9b;
+}
+#search{
+	margin-top:10px;
+	text-align: center;
+}
+#search input{
+	width:150px;
+	height: 30px;
+	border:1px solid #ccc;
+	margin-right: 10px;
+}
+#search button{
+	width: 60px;
+	height: 31px;
+}
+#tables{
+	width: 80%;
+	margin:50px auto;
+}
+#tables button{
+	background: transparent;
+	border:0;
+}
+table{
+	text-align: center;
+	width: 100%;
+	margin-top:10px;
+}
+table,tr,td,th{
+	border:1px solid #888;
+}
+th{
+	height: 25px;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 25px;
+	background: #ddd;
+}
+td{
+	width:20%;
+	font-size: 16px;
+	line-height: 30px;
+	height: 30px;
+}
+#pages{
+	text-align: center;
+	margin:10px;
+}
+#pages a{
+	color:#666;
+}
+#cover{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200%;
+	height: 200%;
+	background: #000;
+	opacity: 0.6;
+}
+#infoConfirm{
+	display:none;
+	position: absolute;
+	top: 20%;
+	left:30%;
+	height: 60%;
+	width:40%;
+	background: #fff;
+	border-radius: 8px;
+	border:3px solid #405c9b;
+	text-align: center;
+}
+#infoConfirm h1{
+	font-size: 28px;
+	margin:15px 0;
+}
+#infoConfirm form{
+	width:460px;
+}
+#infoConfirm input{
+	margin:10px;
+	width:60%;
+	height: 30px;
+	border:1px solid #405c9b;
+	font-size: 14px;
+}

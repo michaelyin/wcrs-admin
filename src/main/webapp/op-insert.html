@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户管理系统</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/operation.css">
+	<script src="js/jquery.min.js"></script>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>用户管理系统</h1>
+			<ul class="nav">
+				<li><a href="op-insert.html">录入信息</a>|</li>
+				<li><a href="search.html">查询信息</a>|</li>
+				<li><a href="#">修改密码</a>|</li>
+				<li><a href="index.html">退出系统</a></li>	
+			</ul>
+		</header>
+	<div id="content">
+		<h2>用户信息录入</h2>
+		<div id="search">
+			<input type="text" name="search" id="searchphone" placeholder="输入手机号进行查询" />
+			<button id="searchbtn">搜索</button>
+		</div>
+		<div id="tables">
+			<table id="mytable">
+				<tr class="title">
+					<th>微信名称</th>
+					<th>用户姓名</th>
+					<th>手机号</th>
+					<th>操作</th>
+				</tr>
+				<tr>
+					<td id="wechatname"></td>
+					<td id="username"></td>
+					<td id="phone"></td>
+					<td>
+						<button class="insert" id="insert"></button>
+					</td>
+				</tr>
+				
+			</table>
+		<!-- 分页 -->
+		<div id="pages">
+			<a id="btn0"></a>
+	        <a id="sjzl"></a>&nbsp;
+	        <a  href="#" id="btn1">首页</a>
+	        <a  href="#" id="btn2">上一页</a>
+	        <a  href="#" id="btn3">下一页</a>
+	        <a  href="#" id="btn4">尾页</a>&nbsp;
+	        <a>转到&nbsp;</a>
+	        <input id="changePage" type="text" size="1" maxlength="4"/>
+	        <a>页&nbsp;</a>
+	        <a  href="#" id="btn5">跳转</a>
+        </div>
+        <!-- end 分页 -->
+		</div>
+	</div>
+	</div>
+	<script type="text/javascript" src="js/op-insert.js"></script>
+	<script type="text/javascript" src="js/axios.min.js"></script>
+	<script type="text/javascript" src="js/pages.js"></script>
+</body>
+</html>

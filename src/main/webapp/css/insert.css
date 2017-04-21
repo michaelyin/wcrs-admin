@@ -1,0 +1,51 @@
+#content{
+	position: relative;
+	height: 450px;
+}
+#insert h1{
+	position: absolute;
+	left:43%;
+	font-size:25px;
+	font-weight: bold;
+}
+#insert form{
+	position: absolute;
+	left:34%;
+	top:35%;
+}
+#insert input{
+	width: 188px;
+	margin:5px 0;
+	padding:5px;
+}
+#insert select{
+	display: inline-block;
+	padding:5px;
+	margin: 5px 0;
+	width: 200px;
+}
+#insert #nextBtn{
+	display: block;
+	position:absolute;
+	left:50%;
+	bottom:-50%;
+	padding:3px;
+}
+#infoConfirm a{
+	left:35%;
+}
+#infoConfirm #confirmBtn{
+	left:55%;
+}
+#infoConfirm a,#infoConfirm #confirmBtn{
+	display: inline-block;
+	position: absolute;
+	bottom:10%;
+	padding:0 3px;
+}
+#infoConfirm form{
+	margin:20px;
+}
+#infoConfirm .hide,#zUnionID{
+	display: none;
+}

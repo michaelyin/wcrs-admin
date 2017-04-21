@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户管理系统</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/operation.css">
+	<link rel="stylesheet" type="text/css" href="css/insert.css">
+</head>
+<body>
+	<div id="container">
+	<header>
+		<h1>用户管理系统</h1>
+		<ul class="nav">
+			<li><a href="op-insert.html">录入信息</a>|</li>
+			<li><a href="search.html">查询信息</a>|</li>
+			<li><a href="#">修改密码</a>|</li>
+			<li><a href="index.html">退出系统</a></li>	
+		</ul>
+	</header>
+	<div id="content">
+		<h2>用户信息录入</h2>
+		<div id="insert">
+			<h1>用户交易录入</h1>
+			<form>
+				<label>产品名称:</label>
+				<select>
+					<option value="1">信息港包年产品</option>
+					<option value="2">信息港包月产品</option>
+					<option value="3">信息港包两次产品</option>
+					<option value="4">用友云产品</option>
+				</select><br/>
+				<label>交易金额:</label>
+				<input type="text" />
+				<a id="nextBtn" class="btn">下一步</a>
+			</form>
+	</div>
+	</div>
+	
+	</div>
+	<div id="cover"></div>
+	<div id="infoConfirm">
+		<h1>用户交易录入</h1>
+		<form>
+				<label class="hide">用户unionID:</label>
+				<input type="text" class="unionId" id="zUnionID">
+				<label>微信名称:</label>
+				<input type="text" class="wechatname" id="wechatname1">
+				<label>用户姓名:</label>
+				<input type="text" class="username" id="username1">
+				<label>手机号:</label>
+				<input type="text" class="phone" id="phone">
+				<label>产品名称:</label>
+				<input type="text" class="productId">
+				<label>交易金额:</label>
+				<input type="text" class="amount" />
+			<a id="cancel" class="btn">取消</a>
+			<button id="confirmBtn" type="button" class="btn">确认</button>
+		</form>	
+	</div>
+	<script type="text/javascript" src="js/insert.js"></script>
+	<script type="text/javascript" src="js/axios.min.js"></script>
+</body>
+</html>
